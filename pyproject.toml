@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ato_timesheet"
+version = "0.1.0"
+description = ""
+authors = ["Joseph Yang <sirjosephyang@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ato_timesheet"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+holidays = "^0.29"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

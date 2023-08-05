@@ -1,0 +1,24 @@
+# financial_year_start: YYYY-MM-DD (Mandatory)
+# sick_leaves:
+#   - YYYY-MM-DD
+# annual_leaves:
+#   - YYYY-MM-DD
+# period_calibrations: 
+#   - start_date: YYYY-MM-DD
+#     end_date: YYYY-MM-DD
+#     min_hours: int
+#     day_start_hour: int
+
+financial_year_start: 2022-07-01
+sick_leaves:
+  - 2023-01-28
+  - 2023-09-10
+annual_leaves:
+  - 2023-04-04
+  - 2023-04-05
+  - 2023-04-06
+period_calibrations: 
+  - start_date: 2023-05-02
+    end_date: 2023-06-10
+    min_hours: 10
+    day_start_hour: 7
